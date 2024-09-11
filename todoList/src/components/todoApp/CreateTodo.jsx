@@ -1,8 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { Fragment } from "react";
 import { v4 as uuidv4 } from "uuid";
-
-// eslint-disable-next-line react/prop-types
 const CreateTodo = ({ setTodos, todos }) => {
   function handleTodo(e) {
     setTodos({ ...todos, text: e.target.value });
